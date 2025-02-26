@@ -139,18 +139,19 @@ const productos = [
             "img/prendas/topinclinado_4.jpg"
         ]
     },
-     {      
-    //erro  GET https://odnanref-27.github.io/ApuntoMarlene/img/prendas/toparcoiris_1.jpg 404
-    
-         "id": 11,
-         "name": "Musculosa Raibow",
-         "description": "Largo: 40cm - Contorno : 80cm",
-         "cost": 1200,
-         "category": "Prenda",
-         "images": [
-             "img/prendas/toparcoiris_1.jpg",
-             "img/prendas/toparcoiris_2.jpg",
-             "img/prendas/toparcoiris_3.jpg"
+    {
+        "id": 11,
+        "name": "Musculosa Raibow",
+        "description": "Largo: 40cm - Contorno : 80cm",
+        "cost": 1200,
+        "category": "Prenda",
+        "images": [
+            "img/prendas/toparcoiris.jpg",
+            "img/prendas/toparcoiris_1.jpg",
+            "img/prendas/toparcoiris_2.jpg",
+            "img/prendas/toparcoiris_3.jpg",
+            "img/prendas/toparcoiris_5.jpg",
+            "img/prendas/toparcoiris_6.jpg"
         ]
     },
     {
