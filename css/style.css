@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.containernav .fs-4 {
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px !important;
+    color: #000000;
+    margin-left: 70px;
+}
+
+nav {
+    color: #000000;
+}
+
+.containernav {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.containernav header {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los elementos de manera uniforme */
+    align-items: center;
+    /* Centra verticalmente */
+    padding: 10px;
+}
+
+.containernav a,
+.containernav .imglg,
+.containernav ul {
+    flex: 1;
+    /* Hace que cada contenedor ocupe el mismo espacio */
+    display: flex;
+    justify-content: center;
+    /* Centra el contenido dentro de su contenedor */
+    align-items: center;
+}
+
+.containernav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.containernav .nav-pills {
+    display: flex;
+    gap: 15px;
+    /* Espaciado entre los elementos del menú */
+}
+
+.containernav a span {
+    white-space: nowrap;
+    /* Evita que el texto se divida en dos líneas */
+}
+
+
+
+@media (max-width: 700px) {
+    .containernav a span {
+        display: none;
+        /* Oculta el texto */
+    }
+
+    .containernav header {
+        flex-direction: column;
+        /* Apila los elementos en columna */
+        align-items: center;
+        /* Centra los elementos */
+        text-align: center;
+    }
+
+    .containernav .imglg {
+        order: -1;
+        /* Mantiene el logo arriba */
+    }
+
+    .containernav ul {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite que los elementos se ajusten */
+        justify-content: center;
+        /* Centra los enlaces */
+        gap: 15px;
+        /* Espaciado entre los enlaces */
+        padding: 10px 0;
+    }
+
+    .containernav .nav-item {
+        flex: 0 1 auto;
+        /* Mantiene los enlaces en línea */
+        white-space: nowrap;
+        /* Evita que se dividan en varias líneas */
+    }
+}
+
+@media (min-width: 700px) {
+    .containernav .nav-pills {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: nowrap;
+    }
+}
+
+
+-------------------------------------------------------------- 
+h1,
+h2 {
+    color: #ff7b25;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra los elementos */
+    align-items: center;
+    width: 100%;
+    /* Usa todo el ancho disponible */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centra el contenedor */
+    gap: 100px;
+    /* Reduce el espacio entre tarjetas */
+    overflow: hidden;
+    /* Evita desbordamiento */
+}
+
+
+.card1,
+.card2 {
+    max-width: 400px;
+    /* Mantiene un tamaño máximo de 400px en pantallas grandes */
+    width: 100%;
+    /* Permite que la tarjeta se reduzca en pantallas pequeñas */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    /*margin: 0;  Agrega un pequeño margen para evitar que se peguen */
+    margin: 10px;
+    /* Evita que se muevan a los lados */
+
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* Asegura que no haya desbordamiento horizontal */
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-img {
+    width: 100%;
+    /* Imagen ocupa todo el ancho del card */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    /* Opcional: redondea los bordes */
+}
+
+.card-body {
+    margin-top: 10px;
+    /* Espaciado entre la imagen y el texto */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.p-3 {
+    background-color: #a0d2f3;
+    color: white;
+}
+
+.p-3 {
+    margin: 10px;
+}
+
+.btn-primary,
+.btn-success {
+    background-color: #ff7b25;
+}
+
+.btn-danger {
+    background-color: #FF00FF;
+}
+
+#productos,
+#galeria,
+#contacto {
+    margin-top: 40px;
+
+}
+
+#contacto a {
+    margin-top: 20px;
+}
+
+#inicio {
+    /* banner inicial  */
+    margin: px;
+    background-color:#f6d1de;
+}
+
+.container h2,
+h5 {
+    text-align: center;
+    padding: 15px;
+}
+
+.container h2{
+    text-align: center;
+    padding: 15px;
+    background-color: #F8EDEB;
+}
+
+.nav-pills .nav-link {
+    color: #138D75;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.comunication{
+    background-color: #ffe4e1 ;
+    justify-content: center;
+    max-width: auto;
+}
