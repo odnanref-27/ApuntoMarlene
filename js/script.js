@@ -148,12 +148,9 @@ const productos = [
          "cost": 1200,
          "category": "Prenda",
          "images": [
-             //"img/prendas/toparcoiris_1.jpg",
              "img/prendas/toparcoiris_1.jpg",
              "img/prendas/toparcoiris_2.jpg",
-             "img/prendas/toparcoiris_3.jpg",
-            //"img/prendas/toparcoiris_5.jpg",
-             //"img/prendas/toparcoiris_6.jpg"
+             "img/prendas/toparcoiris_3.jpg"
         ]
     },
     {
