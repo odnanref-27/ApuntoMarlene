@@ -3,7 +3,7 @@ const productos = [
     {
         "id": 1,
         "name": "Mordillo",
-        "description": "Pack mordillo y sonagero.",
+        "description": "Pack mordillo y sonajero.",
         "cost": 990,
         "category": "Otros",
         "images": [
