@@ -141,7 +141,7 @@ const productos = [
     },
     {
         "id": 11,
-        "name": "Musculosa Raibow",
+        "name": "Musculosa Rainbow",
         "description": "Largo: 40cm - Contorno : 80cm",
         "cost": 1200,
         "category": "Prenda",
