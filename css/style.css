@@ -124,7 +124,7 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
     /* Centra el contenedor */
-    gap: 100px;
+    /* gap: 100px; */
     /* Reduce el espacio entre tarjetas */
     overflow: hidden;
     /* Evita desbordamiento */
