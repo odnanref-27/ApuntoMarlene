@@ -272,3 +272,13 @@ h5 {
     justify-content: center;
     max-width: auto;
 }
+
+
+/*presentacion*/
+
+.containerPresentacion img{
+    max-width: 585px;
+    margin: 5px;
+    align-items: center;
+    min-width: 250px;
+}
