@@ -2,18 +2,6 @@
 const productos = [
     {
         "id": 1,
-        "name": "Mordillo",
-        "description": "Pack mordillo y sonajero.",
-        "cost": 990,
-        "category": "Otros",
-        "images": [
-            "img/otros/mordillo.jpg",
-            "img/otros/mordillo2.jpg",
-            "img/otros/mordillo3.jpg"
-        ]
-    },
-    {
-        "id": 2,
         "name": "Marca Libro",
         "description": "Marca libro.",
         "cost": 100,
@@ -26,7 +14,7 @@ const productos = [
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Llavero Macramé",
         "description": "Disponible en varios colores.",
         "cost": 200,
@@ -38,7 +26,7 @@ const productos = [
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Colgante Crochet",
         "description": "Largo: 120cm.",
         "cost": 1400,
@@ -50,7 +38,7 @@ const productos = [
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Llavero estilo Amigurumi",
         "description": "Disponible en varios colores.",
         "cost": 250,
@@ -62,7 +50,7 @@ const productos = [
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Bolso Girasol",
         "description": "Tamaño: 20cm x 30cm.",
         "cost": 620,
@@ -73,9 +61,9 @@ const productos = [
         ]
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Colero Scrunchie",
-        "description": "Discponible en varios colores.",
+        "description": "Disponible en varios colores.",
         "cost": 140,
         "category": "Otros",
         "images": [
@@ -85,7 +73,7 @@ const productos = [
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Llavero Arcoiris",
         "description": "Tamaño: 12cm apox. ",
         "cost": 250,
@@ -97,9 +85,9 @@ const productos = [
         ]
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Mitones",
-        "description": "Disponibles en varios tamañoa y colores.",
+        "description": "Disponibles en varios tamaños y colores.",
         "cost": 500,
         "category": "Cat. Otros",
         "images": [

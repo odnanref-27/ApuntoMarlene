@@ -1,0 +1,406 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.containernav .fs-4 {
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px !important;
+    color: #000000;
+    margin-left: 70px;
+}
+
+nav {
+    color: #000000;
+}
+
+.containernav {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.containernav header {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los elementos de manera uniforme */
+    align-items: center;
+    /* Centra verticalmente */
+    padding: 10px;
+}
+
+.containernav a,
+.containernav .imglg,
+.containernav ul {
+    flex: 1;
+    /* Hace que cada contenedor ocupe el mismo espacio */
+    display: flex;
+    justify-content: center;
+    /* Centra el contenido dentro de su contenedor */
+    align-items: center;
+}
+
+.containernav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.containernav .nav-pills {
+    display: flex;
+    gap: 15px;
+    /* Espaciado entre los elementos del menú */
+}
+
+.containernav a span {
+    white-space: nowrap;
+    /* Evita que el texto se divida en dos líneas */
+}
+
+
+
+@media (max-width: 700px) {
+    .containernav a span {
+        display: none;
+        /* Oculta el texto */
+    }
+
+    .containernav header {
+        flex-direction: column;
+        /* Apila los elementos en columna */
+        align-items: center;
+        /* Centra los elementos */
+        text-align: center;
+    }
+
+    .containernav .imglg {
+        order: -1;
+        /* Mantiene el logo arriba */
+    }
+
+    .containernav ul {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite que los elementos se ajusten */
+        justify-content: center;
+        /* Centra los enlaces */
+        gap: 15px;
+        /* Espaciado entre los enlaces */
+        padding: 10px 0;
+    }
+
+    .containernav .nav-item {
+        flex: 0 1 auto;
+        /* Mantiene los enlaces en línea */
+        white-space: nowrap;
+        /* Evita que se dividan en varias líneas */
+    }
+}
+
+@media (min-width: 700px) {
+    .containernav .nav-pills {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: nowrap;
+    }
+}
+
+
+-------------------------------------------------------------- h1,
+h2 {
+    color: #ff7b25;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra los elementos */
+    align-items: center;
+    width: 100%;
+    /* Usa todo el ancho disponible 
+    max-width: 1200px;*/
+    margin: 0 auto;
+    /* Centra el contenedor 
+    gap: 100px;*/
+    /* Reduce el espacio entre tarjetas */
+    overflow: hidden;
+    /* Evita desbordamiento */
+    flex-direction: column;
+}
+
+
+.card1 {
+    max-width: 400px;
+    /* Mantiene un tamaño máximo de 400px en pantallas grandes */
+    width: 100%;
+    /* Permite que la tarjeta se reduzca en pantallas pequeñas */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    /*margin: 0;  Agrega un pequeño margen para evitar que se peguen */
+    /* Evita que se muevan a los lados */
+    margin: 5px;
+    margin-left: auto;
+
+}
+
+.card2 {
+    max-width: 700px;
+    /* Mantiene un tamaño máximo de 400px en pantallas grandes */
+    width: 80%;
+    /* Permite que la tarjeta se reduzca en pantallas pequeñas */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    /*margin: 0;  Agrega un pequeño margen para evitar que se peguen */
+    /* Evita que se muevan a los lados */
+    margin: 15px;
+    margin-left: 60px !important;
+
+}
+
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    /* display: inline-table; */
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* Asegura que no haya desbordamiento horizontal */
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-img {
+    width: 100%;
+    /* Imagen ocupa todo el ancho del card */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    /* Opcional: redondea los bordes */
+}
+
+.card-body {
+    margin-top: 10px;
+    /* Espaciado entre la imagen y el texto */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.p-3 {
+    
+    background-color: #c5d084;
+    color: white;
+}
+
+.p-3 {
+    margin: 10px;
+}
+
+.btn-primary,
+.btn-success {
+    background-color: #ff7b25;
+}
+
+.btn-danger {
+    background-color: #FF00FF;
+}
+
+#galeria,
+#contacto {
+    margin-top: 40px;
+
+}
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra los elementos */
+    align-items: center;
+    width: 100%;
+    /* Usa todo el ancho disponible */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centra el contenedor */
+    /* gap: 100px; */
+    /* Reduce el espacio entre tarjetas */
+    overflow: hidden;
+    /* Evita desbordamiento */
+}
+
+
+
+#contacto a {
+    margin-top: 20px;
+}
+
+#inicio {
+    margin: px;
+}
+
+.containerPrincipal h2,
+.card-title {
+    text-align: center;
+    padding: 15px;
+    background: #a6fab6;
+}
+
+.containerPrincipal h5 {
+    text-align: center;
+    padding: 15px;
+
+}
+
+.cash {
+    color: #15c196;
+}
+
+#contacto box-icon {
+    font-size: 100px !important;
+
+}
+
+
+.col-md-4 {
+
+    /* Apartado de modificacion de cartas 'prendas' en prendas.html*/
+
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    /* Espaciado entre las tarjetas */
+    display: inline-block;
+}
+
+.containerPrincipal {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.containerRetry {
+    margin: auto;
+}
+
+
+/* modal  */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0%;
+    padding: 0;
+}
+
+.modal-content img {
+
+    max-width: 80vw;
+    /* 80% del ancho de la ventana */
+    max-height: 80vh;
+    /* 80% de la altura de la ventana */
+    object-fit: contain;
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+
+}
+
+.close,
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.close {
+    top: 10px;
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.comunication {
+    background-color: #ffe4e1;
+    justify-content: center;
+    max-width: auto;
+}
