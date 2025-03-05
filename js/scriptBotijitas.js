@@ -2,100 +2,44 @@
 const productos = [
     {
         "id": 1,
-        "name": "Marca Libro",
-        "description": "Marca libro.",
-        "cost": 100,
-        "category": "Otros",
+        "name": "Chaleco",
+        "description": "“Calienta Corazones” es la colección de chalecos para los/as más peques, una prenda súper cómoda para usar en más de una estación.",
+        "cost": 700,
+        "category": "Botijitas",
         "images": [
-            "img/otros/marca.jpg",
-            "img/otros/marca2.jpg",
-            "img/otros/marca3.jpg"
-
+            "img/botijitas/chaleco1.jpg",
+            "img/botijitas/chaleco2.jpg",
+            "img/botijitas/chaleco3.jpg",
         ]
     },
     {
         "id": 2,
-        "name": "Llavero Macramé",
-        "description": "Disponible en varios colores.",
-        "cost": 200,
-        "category": "Otros",
+        "name": "Mordillo",
+        "description": "Pack mordillo y sonajero.",
+        "cost": 990,
+        "category": "Botijitas",
         "images": [
-            "img/otros/llavero.jpg",
-            "img/otros/llavero1.jpg",
-            "img/otros/llavero2.jpg"
+            "img/botijitas/mordillo.jpg",
+            "img/botijitas/mordillo2.jpg",
+            "img/botijitas/mordillo3.jpg"
         ]
     },
     {
         "id": 3,
-        "name": "Colgante Crochet",
-        "description": "Largo: 120cm.",
-        "cost": 1400,
-        "category": "Otros",
+        "name": "Vestido infantil Auguria",
+        "description": " Combinacion de tela y crochet, Consultar talle.",
+        "cost": 890,
+        "category": "Botijitas",
         "images": [
-            "img/otros/colgante.jpg",
-            "img/otros/colgante2.jpg",
-            "img/otros/colgante3.jpg"
+            "img/botijitas/vestiditorojo_1.jpg",
+            "img/botijitas/vestiditorojo_2.jpg",
+            "img/botijitas/vestiditorojo_3.jpg",
+            "img/botijitas/vestiditorojo_4.jpg",
+            "img/botijitas/vestidito_5.jpg",
+            "img/botijitas/vestidito_6.jpg",
+            "img/botijitas/vestidito_7.jpg"
         ]
     },
-    {
-        "id": 4,
-        "name": "Llavero estilo Amigurumi",
-        "description": "Disponible en varios colores.",
-        "cost": 250,
-        "category": "Otros",
-        "images": [
-            "img/otros/medusin.jpg",
-            "img/otros/rosa.jpg",
-            "img/otros/ojosenvidia.jpg"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Bolso Girasol",
-        "description": "Tamaño: 20cm x 30cm.",
-        "cost": 620,
-        "category": "Otros",
-        "images": [
-            "img/otros/girasol.jpg",
-            "img/otros/girasol1.jpg"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Colero Scrunchie",
-        "description": "Disponible en varios colores.",
-        "cost": 140,
-        "category": "Otros",
-        "images": [
-            "img/otros/colita.jpg",
-            "img/otros/colita2.jpg",
-            "img/otros/colita3.jpg"
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Llavero Arcoiris",
-        "description": "Tamaño: 12cm apox. ",
-        "cost": 250,
-        "category": "Otros",
-        "images": [
-            "img/otros/arcoiris.jpg",
-            "img/otros/arcoiris2.jpg",
-            "img/otros/arcoiris3.jpg",
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Mitones",
-        "description": "Disponibles en varios tamaños y colores.",
-        "cost": 500,
-        "category": "Cat. Otros",
-        "images": [
-            "img/otros/mitones.jpg",
-            "img/otros/mitones2.jpg",
-            "img/otros/mitones3.jpg"
-        ]
-    }
 ];
 const productsInfo = [];
 
@@ -185,3 +129,5 @@ productos.forEach((product, productIndex) => {
         openModal(product.images, 0);
     });
 });
+
+

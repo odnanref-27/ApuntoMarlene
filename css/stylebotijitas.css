@@ -107,8 +107,7 @@ nav {
 }
 
 
--------------------------------------------------------------- 
-h1,
+-------------------------------------------------------------- h1,
 h2 {
     color: #ff7b25;
 }
@@ -120,19 +119,19 @@ h2 {
     /* Centra los elementos */
     align-items: center;
     width: 100%;
-    /* Usa todo el ancho disponible */
-    max-width: 1200px;
+    /* Usa todo el ancho disponible 
+    max-width: 1200px;*/
     margin: 0 auto;
-    /* Centra el contenedor */
-    /* gap: 100px; */
+    /* Centra el contenedor 
+    gap: 100px;*/
     /* Reduce el espacio entre tarjetas */
     overflow: hidden;
     /* Evita desbordamiento */
+    flex-direction: column;
 }
 
 
-.card1,
-.card2 {
+.card1 {
     max-width: 400px;
     /* Mantiene un tamaño máximo de 400px en pantallas grandes */
     width: 100%;
@@ -143,14 +142,35 @@ h2 {
     background-color: #fff;
     text-align: center;
     /*margin: 0;  Agrega un pequeño margen para evitar que se peguen */
-    margin: 10px;
     /* Evita que se muevan a los lados */
+    margin: 5px;
+    margin-left: auto;
 
 }
+
+.card2 {
+    max-width: 700px;
+    /* Mantiene un tamaño máximo de 400px en pantallas grandes */
+    width: 80%;
+    /* Permite que la tarjeta se reduzca en pantallas pequeñas */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    /*margin: 0;  Agrega un pequeño margen para evitar que se peguen */
+    /* Evita que se muevan a los lados */
+    margin: 15px;
+    margin-left: 60px !important;
+
+}
+
 
 .container {
     width: 100%;
     padding: 0 15px;
+    /* display: inline-table; */
+
 }
 
 html,
@@ -193,7 +213,8 @@ body {
 }
 
 .p-3 {
-    background-color: #a0d2f3;
+    
+    background-color: #c5d084;
     color: white;
 }
 
@@ -210,65 +231,176 @@ body {
     background-color: #FF00FF;
 }
 
-#productos,
 #galeria,
 #contacto {
     margin-top: 40px;
 
 }
 
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centra los elementos */
+    align-items: center;
+    width: 100%;
+    /* Usa todo el ancho disponible */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centra el contenedor */
+    /* gap: 100px; */
+    /* Reduce el espacio entre tarjetas */
+    overflow: hidden;
+    /* Evita desbordamiento */
+}
+
+
+
 #contacto a {
     margin-top: 20px;
 }
 
 #inicio {
-    /* banner inicial  */
     margin: px;
-    background-color:#f6d1de;
 }
 
-.container h2,
-h5 {
+.containerPrincipal h2,
+.card-title {
     text-align: center;
     padding: 15px;
+    background: #a6fab6;
 }
 
-.container h2{
+.containerPrincipal h5 {
     text-align: center;
     padding: 15px;
-    background-color: #F8EDEB;
+
 }
 
-.nav-pills .nav-link {
-    color: #138D75;
+.cash {
+    color: #15c196;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+#contacto box-icon {
+    font-size: 100px !important;
+
 }
+
+
+.col-md-4 {
+
+    /* Apartado de modificacion de cartas 'prendas' en prendas.html*/
+
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    /* Espaciado entre las tarjetas */
+    display: inline-block;
+}
+
+.containerPrincipal {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.containerRetry {
+    margin: auto;
+}
+
+
+/* modal  */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0%;
+    padding: 0;
+}
+
+.modal-content img {
+
+    max-width: 80vw;
+    /* 80% del ancho de la ventana */
+    max-height: 80vh;
+    /* 80% de la altura de la ventana */
+    object-fit: contain;
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+
+}
+
+.close,
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.close {
+    top: 10px;
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
 .float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+    margin-top: 16px;
 }
 
-.comunication{
-    background-color: #ffe4e1 ;
+.comunication {
+    background-color: #ffe4e1;
     justify-content: center;
     max-width: auto;
 }

@@ -70,23 +70,6 @@ const productos = [
     },
     {
         "id": 6,
-        "name": "Vestido infantil Auguria",
-        "description": " Combinacion de tela crochet, Consulta talle.",
-        "color": "Granate, Rosa",
-        "cost": 890,
-        "category": "Prenda",
-        "images": [
-            "img/prendas/vestiditorojo_1.jpg",
-            "img/prendas/vestiditorojo_2.jpg",
-            "img/prendas/vestiditorojo_3.jpg",
-            "img/prendas/vestiditorojo_4.jpg",
-            "img/prendas/vestidito_5.jpg",
-            "img/prendas/vestidito_6.jpg",
-            "img/prendas/vestidito_7.jpg"
-        ]
-    },
-    {
-        "id": 7,
         "name": "Top Verano",
         "description": "Hecho a mano en crochet, disponible en varios tamaños.",
         "cost": 500,
@@ -100,7 +83,7 @@ const productos = [
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Top Granny",
         "description": "Largo: 55cm - Contorno : Regulable",
         "color": "Crudo",
@@ -114,7 +97,7 @@ const productos = [
         ]
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Top en crochet",
         "description": "Top coraza - Top verano",
         "cost": 700,
@@ -127,7 +110,7 @@ const productos = [
         ]
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Top Granny",
         "description": "Largo: 50cm - Contorno : Regulable",
         "cost": 1200,
@@ -140,8 +123,8 @@ const productos = [
         ]
     },
     {
-        "id": 11,
-        "name": "Musculosa Rainbow",
+        "id": 10,
+        "name": "Musculosa Raibow",
         "description": "Largo: 40cm - Contorno : 80cm",
         "cost": 1200,
         "category": "Prenda",
@@ -155,7 +138,7 @@ const productos = [
         ]
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "Top crop",
         "description": "Largo: 30cm -  Contorno : Regulable",
         "cost": 950,
