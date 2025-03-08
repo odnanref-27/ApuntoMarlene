@@ -267,11 +267,12 @@ body {
 
 }
 
+.nav-pills .nav-link {
+    color: #138D75;
+}
 
 .col-md-4 {
-
     /* Apartado de modificacion de cartas 'prendas' en prendas.html*/
-
     width: 100%;
     max-width: 400px;
     margin-bottom: 20px;
