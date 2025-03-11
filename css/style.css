@@ -194,6 +194,7 @@ body {
 }
 
 .p-3 {
+    /* Contacto */
     background-color: #a0d2f3;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -234,9 +235,8 @@ body {
 
 #inicio h1{
     font-family: "Gochi Hand", cursive;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-
 }
 .container h2,
 h5 {
