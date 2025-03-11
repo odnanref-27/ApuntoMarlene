@@ -1,5 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .containernav .fs-4 {
@@ -36,7 +39,6 @@ nav {
     /* Hace que cada contenedor ocupe el mismo espacio */
     display: flex;
     justify-content: center;
-    /* Centra el contenido dentro de su contenedor */
     align-items: center;
 }
 
@@ -107,8 +109,7 @@ nav {
 }
 
 
--------------------------------------------------------------- 
-h1,
+-------------------------------------------------------------- h1,
 h2 {
     color: #ff7b25;
 }
@@ -195,6 +196,7 @@ body {
 .p-3 {
     background-color: #a0d2f3;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 .p-3 {
@@ -224,51 +226,64 @@ body {
 #inicio {
     /* banner inicial  */
     margin: px;
-    background-color:#f6d1de;
+    background-color: #f6d1de;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+#inicio h1{
+    font-family: "Gochi Hand", cursive;
+    font-weight: 600;
+    font-style: normal;
+
+}
 .container h2,
 h5 {
     text-align: center;
     padding: 15px;
+    font-family: "Poppins", sans-serif;
 }
 
-.container h2{
+.container h2 {
     text-align: center;
     padding: 15px;
     background-color: #F8EDEB;
+    
 }
 
 .nav-pills .nav-link {
     color: #138D75;
+    font-family: "Poppins", sans-serif;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
+
 .float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+    margin-top: 16px;
 }
 
-.comunication{
-    background-color: #ffe4e1 ;
+.comunication {
+    background-color: #ffe4e1;
     justify-content: center;
     max-width: auto;
 }
@@ -281,15 +296,15 @@ h5 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    
+
 }
 
-#presentacion{
-    background-color: #d3bcf6; 
+#presentacion {
+    background-color: #d3bcf6;
 }
 
 .containerPresentacion Img {
-    width: calc(33.3% - 10px );
+    width: calc(33.3% - 10px);
     max-width: auto;
     min-width: 400px;
     height: auto;
@@ -297,11 +312,12 @@ h5 {
 }
 
 @media (maxwidth: 600px) {
-    .containerPresentacion{
+    .containerPresentacion {
         flex-direction: column;
         align-items: center;
     }
-    .containerPresentacion img{
+
+    .containerPresentacion img {
         width: 100%;
     }
 }

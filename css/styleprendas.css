@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .containernav .fs-4 {
@@ -213,8 +213,11 @@ body {
 }
 
 .p-3 {
+    /* Contacto */
     background-color: #f9d99a;
     color: white;
+    font-family: "Poppins", sans-serif;
+    
 }
 
 .p-3 {
@@ -234,7 +237,7 @@ body {
 #galeria,
 #contacto {
     margin-top: 40px;
-
+    font-family: "Poppins", sans-serif;
 }
 
 #contacto a {
@@ -269,6 +272,7 @@ body {
 
 .nav-pills .nav-link {
     color: #138D75;
+    font-family: "Poppins", sans-serif;
 }
 
 .col-md-4 {

@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .containernav .fs-4 {
@@ -215,6 +215,7 @@ body {
 .p-3 {
     background-color:  #95b8f6;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 .p-3 {
@@ -260,6 +261,7 @@ body {
 
 .cash {
     color: #15c196;
+    
 }
 
 #contacto box-icon {
@@ -269,6 +271,7 @@ body {
 
 .nav-pills .nav-link {
     color: #138D75;
+    font-family: "Poppins", sans-serif;
 }
 
 .col-md-4 {
@@ -283,6 +286,7 @@ body {
 .containerPrincipal {
     width: 100%;
     padding: 0 15px;
+    font-family: "Poppins", sans-serif;
 }
 
 .containerRetry {
