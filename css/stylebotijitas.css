@@ -2,6 +2,15 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.imglg img {
+    /* imagen logo */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* background-color: #cc2262; */
+}
+
 .containernav .fs-4 {
     font-family: "Amatic SC", serif;
     font-weight: 700;
@@ -212,7 +221,7 @@ body {
 }
 
 .p-3 {
-    
+
     background-color: #cabaff;
     color: white;
 }
@@ -290,11 +299,11 @@ body {
     padding: 0 15px;
 }
 
-.row2{
+.row2 {
     display: flexbox;
 }
 
-#productos{
+#productos {
     justify-content: center;
     align-items: center;
     border-radius: 5%;
