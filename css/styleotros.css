@@ -7,7 +7,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 50px !important;
-    color: #000000;
+    color: #a6d2ff;
     margin-left: 70px;
 }
 
@@ -213,7 +213,7 @@ body {
 }
 
 .p-3 {
-    background-color:  #95b8f6;
+    background-color:  #a6d2ff;
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -250,12 +250,15 @@ body {
 .card-title {
     text-align: center;
     padding: 15px;
-    background: lightcyan
+    color: white;
+    background-color: #a6d2ff;
 }
 
 .containerPrincipal h5 {
     text-align: center;
     padding: 15px;
+    color: white;
+    background-color: #a6d2ff;
 
 }
 
@@ -270,7 +273,7 @@ body {
 }
 
 .nav-pills .nav-link {
-    color: #138D75;
+    color: #a6d2ff;
     font-family: "Poppins", sans-serif;
 }
 

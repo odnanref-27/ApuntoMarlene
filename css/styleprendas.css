@@ -7,7 +7,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 50px !important;
-    color: #000000;
+    color: #ff88b1;
     margin-left: 70px;
 }
 
@@ -214,7 +214,7 @@ body {
 
 .p-3 {
     /* Contacto */
-    background-color: #f9d99a;
+    background-color: #cabaff;
     color: white;
     font-family: "Poppins", sans-serif;
     
@@ -252,13 +252,15 @@ body {
 .card-title {
     text-align: center;
     padding: 15px;
-    background: #F0D8D9;
+    background: #ff88b1;
+    color: white;
 }
 
 .containerPrincipal h5 {
     text-align: center;
     padding: 15px;
-
+    color: white;
+    background-color: #ff88b1;
 }
 
 .cash {
@@ -271,7 +273,7 @@ body {
 }
 
 .nav-pills .nav-link {
-    color: #138D75;
+    color: #ff88b1;
     font-family: "Poppins", sans-serif;
 }
 

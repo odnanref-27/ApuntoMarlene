@@ -5,12 +5,22 @@ body {
 
 }
 
+.imglg img{
+    /* imagen logo */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* background-color: #cc2262; */
+}
+
+
 .containernav .fs-4 {
     font-family: "Amatic SC", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px !important;
-    color: #000000;
+    color: #ff88b1;
     margin-left: 70px;
 }
 
@@ -195,9 +205,10 @@ body {
 
 .p-3 {
     /* Contacto */
-    background-color: #a0d2f3;
+    background-color: #cabaff;
     color: white;
     font-family: "Poppins", sans-serif;
+    margin: auto;
 }
 
 .p-3 {
@@ -220,6 +231,11 @@ body {
 
 }
 
+#productos h2{
+   padding: 15px;
+    background-color: #a3b3f4;
+}
+
 #contacto a {
     margin-top: 20px;
 }
@@ -227,33 +243,39 @@ body {
 #inicio {
     /* banner inicial  */
     margin: px;
-    background-color: #f6d1de;
+    background-color: #ff88b1;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 #inicio h1{
-    font-family: "Gochi Hand", cursive;
-    font-weight: 700;
-    font-style: normal;
-}
-.container h2,
-h5 {
-    text-align: center;
-    padding: 15px;
-    font-family: "Poppins", sans-serif;
+    color: #ff88b1;
 }
 
-.container h2 {
+#inicio h1{
+    color: white;
+    font-style:normal;
+}
+.container h1, h2,
+h5 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: white !important;
+}
+
+.container h2,h5 {
+    /* banner productos */
     text-align: center;
     padding: 15px;
-    background-color: #F8EDEB;
-    
+    background-color: #a3b3f4;
+    color: white;
 }
 
 .nav-pills .nav-link {
-    color: #138D75;
+    /* licks */
+    color: #ff88b1;
     font-family: "Poppins", sans-serif;
 }
 
@@ -300,7 +322,9 @@ h5 {
 }
 
 #presentacion {
-    background-color: #d3bcf6;
+    /* fondo presentacion  */
+    background-color: #e2ccd6;
+    margin-top: 20px;
 }
 
 .containerPresentacion Img {
