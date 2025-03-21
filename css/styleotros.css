@@ -2,6 +2,15 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.imglg img {
+    /* imagen logo */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* background-color: #cc2262; */
+}
+
 .containernav .fs-4 {
     font-family: "Amatic SC", serif;
     font-weight: 700;
@@ -213,7 +222,7 @@ body {
 }
 
 .p-3 {
-    background-color:  #a6d2ff;
+    background-color: #a6d2ff;
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -264,7 +273,7 @@ body {
 
 .cash {
     color: #15c196;
-    
+
 }
 
 #contacto box-icon {
@@ -363,32 +372,33 @@ body {
 }
 
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
+
 .float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+    margin-top: 16px;
 }
 
-.comunication{
-    background-color: #ffe4e1 ;
+.comunication {
+    background-color: #ffe4e1;
     justify-content: center;
     max-width: auto;
 }
