@@ -41,13 +41,13 @@ const productos = [
         ]
     },{
         "id": 4,
-        "name": "Pelotas Montesori",
+        "name": "Pelotas Montessori",
         "description": " Tipo 1 en dos tamaños",
         "cost": 550,
         "category": "Botijitas",
         "images": [
-            "img/botijitas/pelota1.jpg",
             "img/botijitas/pelota2.jpg",
+            "img/botijitas/pelota1.jpg",
             "img/botijitas/pelota3.jpg"
         ]
     },{
