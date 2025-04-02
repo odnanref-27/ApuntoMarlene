@@ -39,7 +39,30 @@ const productos = [
             "img/botijitas/vestidito_6.jpg",
             "img/botijitas/vestidito_7.jpg"
         ]
+    },{
+        "id": 4,
+        "name": "Pelotas Montesori",
+        "description": " Tipo 1 en dos tamaños",
+        "cost": 550,
+        "category": "Botijitas",
+        "images": [
+            "img/botijitas/pelota1.jpg",
+            "img/botijitas/pelota2.jpg",
+            "img/botijitas/pelota3.jpg"
+        ]
+    },{
+        "id": 5,
+        "name": "Mordillos",
+        "description": " Trapillo y Madera",
+        "cost": 150,
+        "category": "Botijitas",
+        "images": [
+            "img/botijitas/mordillomadera1.jpg",
+            "img/botijitas/mordillomadera2.jpg",
+            "img/botijitas/mordillomadera3.jpg"
+        ]
     },
+    
 ];
 const productsInfo = [];
 

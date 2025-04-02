@@ -5,7 +5,7 @@ body {
 
 }
 
-.imglg img{
+.imglg img {
     /* imagen logo */
     width: 150px;
     height: 150px;
@@ -231,8 +231,8 @@ body {
 
 }
 
-#productos h2{
-   padding: 15px;
+#productos h2 {
+    padding: 15px;
     background-color: #a3b3f4;
 }
 
@@ -250,22 +250,25 @@ body {
     color: white;
 }
 
-#inicio h1{
+#inicio h1 {
     color: #ff88b1;
 }
 
-#inicio h1{
+#inicio h1 {
     color: white;
-    font-style:normal;
+    font-style: normal;
 }
-.container h1, h2,
+
+.container h1,
+h2,
 h5 {
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: white !important;
 }
 
-.container h2,h5 {
+.container h2,
+h5 {
     /* banner productos */
     text-align: center;
     padding: 15px;
